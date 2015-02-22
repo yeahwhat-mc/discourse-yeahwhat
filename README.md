@@ -6,7 +6,7 @@ Discourse customizations for our YEAHWHAT?! forums (http://forums.yeahwh.at).
 ### Features
 
 * Minecraft avatars instead of initials
-* Minecraft heads plugin (credits to @NomNuggetNom's [discourse-mcheads](https://github.com/NomNuggetNom/discourse-mcheads) plugin)
+* Minecraft heads plugin (Use `[head:<minecraftplayer>]` to show a 16x16 helm icon in your posts)
 
 ### Installation
 
@@ -23,6 +23,10 @@ Discourse customizations for our YEAHWHAT?! forums (http://forums.yeahwh.at).
   `git pull`  
   `./launcher rebuild app`
 1. Profit!
+
+### Credits
+
+* @NomNuggetNom's for his [discourse-mcheads](https://github.com/NomNuggetNom/discourse-mcheads) plugin
 
 ### Version
 
