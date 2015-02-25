@@ -1,7 +1,7 @@
 after_initialize do
   User.class_eval do
     def avatar_template
-      "https://crafatar.com/avatars/#{self.username}?size=128"
+      "/minecraft_avatar/#{username}.png"
     end
   end
 end
