@@ -9,7 +9,9 @@ plugins_dir = File.expand_path(File.dirname(__FILE__))
 # Minecraft avatars
 ###
 
-eval File.read("#{plugins_dir}/minecraft_avatars.rb")
+after_initialize {
+  load File.expand_path("../minecraft_avatars.rb", __FILE__)
+}
 
 ###
 # Minecraft heads
