@@ -3,8 +3,6 @@
 # version: 1.0.0
 # authors: Jonas Friedmann
 
-plugins_dir = File.expand_path(File.dirname(__FILE__))
-
 ###
 # Minecraft avatars
 ###
@@ -12,6 +10,8 @@ plugins_dir = File.expand_path(File.dirname(__FILE__))
 after_initialize {
   load File.expand_path("../minecraft_avatars.rb", __FILE__)
 }
+
+register_asset "javascripts/minecraft_avatars.js", :server_side
 
 ###
 # Minecraft heads
