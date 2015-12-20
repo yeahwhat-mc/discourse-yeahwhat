@@ -6,7 +6,7 @@
         url = "/user_avatar/" + Discourse.BaseUrl + "/" + username.toLowerCase() + "/{size}/" + uploadedAvatarId + ".png";
         return Discourse.getURLWithCDN(url);
       } else {
-        return "https://crafatar.com/avatars/" + username.toLowerCase() + "?helm&size={size}";
+        return "https://crafatar.com/avatars/" + username.toLowerCase() + "?overlay&size={size}";
       }
     }
   });
